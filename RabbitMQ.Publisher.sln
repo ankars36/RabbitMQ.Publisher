@@ -5,13 +5,15 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F7E31227-9D0A-4E59-ACE7-2CC014A12A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct.Exchange.Publisher", "Direct.Exchange.Publisher\Direct.Exchange.Publisher.csproj", "{DF2F2E09-8700-4CD8-8A8D-6C58A1471835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direct.Exchange.Publisher", "Direct.Exchange.Publisher\Direct.Exchange.Publisher.csproj", "{DF2F2E09-8700-4CD8-8A8D-6C58A1471835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Exchange.Publisher", "Fanout.Exchange.Publisher\Fanout.Exchange.Publisher.csproj", "{75F8FE9F-C557-4A63-8EBC-430D563E8999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanout.Exchange.Publisher", "Fanout.Exchange.Publisher\Fanout.Exchange.Publisher.csproj", "{75F8FE9F-C557-4A63-8EBC-430D563E8999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Exchange.Publisher", "Topic.Exchange.Publisher\Topic.Exchange.Publisher.csproj", "{382800BB-8016-4051-8F7D-2F6BD06D78F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic.Exchange.Publisher", "Topic.Exchange.Publisher\Topic.Exchange.Publisher.csproj", "{382800BB-8016-4051-8F7D-2F6BD06D78F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header.Exchange.Publisher", "Header.Exchange.Publisher\Header.Exchange.Publisher.csproj", "{B45BBD4C-AC95-49CB-A774-EE38D6B858BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Header.Exchange.Publisher", "Header.Exchange.Publisher\Header.Exchange.Publisher.csproj", "{B45BBD4C-AC95-49CB-A774-EE38D6B858BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Templates.Publisher", "Message.Templates.Publisher\Message.Templates.Publisher.csproj", "{F8881E95-6933-47CE-822E-C20E945B7766}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B45BBD4C-AC95-49CB-A774-EE38D6B858BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B45BBD4C-AC95-49CB-A774-EE38D6B858BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B45BBD4C-AC95-49CB-A774-EE38D6B858BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8881E95-6933-47CE-822E-C20E945B7766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8881E95-6933-47CE-822E-C20E945B7766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8881E95-6933-47CE-822E-C20E945B7766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8881E95-6933-47CE-822E-C20E945B7766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
